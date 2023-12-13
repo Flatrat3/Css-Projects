@@ -1,0 +1,72 @@
+#header1 {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-image: url(../assets/school.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-header .cover-section-subtitle {
+  background-color: #79c8e8;
+  border-radius: 5px;
+  padding: 0 1rem;
+  display: inline-block;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.cover-section-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 5.37rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  font-style: normal;
+  line-height: 1.1;
+  color: #12265a;
+  margin-left: -4px;
+  margin-bottom: 0.1rem;
+}
+
+.cover-section-text {
+  margin-bottom: 1.3rem;
+  font-family: "Muli", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0;
+  padding-bottom: 1rem;
+  color: #70747f;
+}
+
+.cover-section-button .display-7 {
+  cursor: pointer;
+  background-color: #ffc85b;
+  color: #ffffff;
+  border-color: #ffc85b;
+  font-family: "Muli", sans-serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.7;
+  padding: 0.7rem 2.7rem;
+  border-radius: 35px;
+}
+
+.cover-section-button .display-7:hover {
+  background-color: #45b3df !important;
+  border-color: #45b3df !important;
+}
+
+.cover-header .svg-1 {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.cover-header .svg-1 path {
+  fill: #ffffff;
+}

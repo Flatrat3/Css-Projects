@@ -1,13 +1,14 @@
 .header-section-menu {
   position: sticky;
   top: 0;
-  background: var(--main-bg-color);
+  background: #ffffff;
   transition: none;
   min-height: 77px;
   padding: 0.5rem 0;
+  z-index: 999;
 }
 
-.header-section-menu .container {
+.container {
   max-width: 1200px;
 }
 
@@ -69,7 +70,7 @@
   display: none;
   position: absolute;
   top: 100%;
-  background-color: var(--main-bg-color);
+  background-color: #fff;
   padding-top: 4.5rem;
   padding-bottom: 2rem;
   text-align: left;
