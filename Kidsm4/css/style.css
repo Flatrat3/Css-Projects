@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+/* Root */
+
+:root {
+  --main-bg-color: #fffffff;
+  --main-item-color: #fa9db7;
+  --main-link-color: #ffc85b;
 }
 
 .header-section-menu {
   position: sticky;
   top: 0;
-  background: #ffffff;
+  background: var(--main-bg-color);
   transition: none;
   min-height: 77px;
   padding: 0.5rem 0;
@@ -19,8 +23,6 @@ body {
 
 .header-section-menu .container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header-section-menu .navbar-logo {
@@ -46,7 +48,7 @@ body {
 }
 
 .mbr-section-subtitle {
-  color: #fa9db7;
+  color: var(--main-item-color);
   font-family: "Nunito", sans-serif;
   font-size: 1.75rem;
   font-weight: 900;
@@ -69,25 +71,64 @@ body {
 
 .main-nav .nav-item > a.dropdown::after {
   content: "+";
-  border: none !important;
   margin-left: 0.25rem;
 }
 
-.main-nav .nav-item a.active {
-  background: #ffc85b !important;
+.main-nav .nav-item > .dropdown {
+  position: relative;
+}
+
+.dropdown-ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: var(--main-bg-color);
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  border-radius: 20px;
+  min-width: 250px;
+}
+
+.dropdown-ul-second {
+  min-width: 600px;
+}
+
+.dropdown-ul::after {
+  content: "";
+  position: absolute;
+  top: 4rem;
+  bottom: 1.4rem;
+  left: 10px;
+  right: 10px;
+  border: 4px dashed var(--main-item-color);
+  border-radius: 10px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.main-nav .dropdown:hover .dropdown-ul {
+  display: block;
+}
+
+.main-nav .dropdown-ul .nav-link:hover {
+  color: var(--main-link-color);
+}
+
+.main-nav > .nav-item > a.active {
+  background: var(--main-link-color) !important;
   border-radius: 5px;
 }
 
-.main-nav .nav-item a:hover {
+.main-nav > .nav-item > a:hover {
   color: #12265a !important;
-  background: #ffc85b;
+  background: var(--main-link-color);
   border-radius: 5px;
 }
 
 .mbr-section-btn a {
   cursor: pointer;
   display: -webkit-inline-flex;
-  align-items: center;
   -webkit-align-items: center;
   position: relative;
   border: 1px solid #7a7b7e;
@@ -98,9 +139,9 @@ body {
 }
 
 .btn-warning {
-  background-color: #fa9db7 !important;
-  border-color: #fa9db7 !important;
-  color: #ffffff !important;
+  background-color: var(--main-item-color) !important;
+  border-color: var(--main-item-color) !important;
+  color: #fff !important;
 }
 
 .display-4 {
@@ -115,7 +156,7 @@ body {
   left: -7px;
   width: 52px;
   height: 52px;
-  border: 2px dashed #fa9db7;
+  border: 2px dashed var(--main-item-color);
   border-radius: 30px;
   animation: spin_left 5s linear infinite;
   animation-play-state: paused;
