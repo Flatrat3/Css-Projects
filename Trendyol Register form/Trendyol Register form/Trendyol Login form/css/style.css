@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background-color: #fafafa;
+}
+
+.center {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+}
+
+.center h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #f27a1a;
+}
+
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field {
+  position: relative;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #e8f0fe;
+}
+
+.pass {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.gender button {
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 12px 75px;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #f27a1a;
+  background-color: #f27a1a;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+input[type="submit"]:hover {
+  background-color: rgba(248, 113, 9, 0.693);
+}
+
+.agree label {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.facebook {
+  position: relative;
+  top: 30px;
+  left: 5px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  /* Yazi ile iconu ortalamaq ucun */
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+.facebook i {
+  line-height: 50px;
+  padding: 0 20px;
+  font-size: 30px;
+  color: #4c6ea8;
+}
+
+.facebook p {
+  font-size: 12px;
+  line-height: 50px;
+}
+
+.facebook:hover {
+  background-color: rgba(232, 240, 254, 0.3);
+}
+
+.google {
+  top: -20px;
+  left: 220px;
+  background-color: white;
+}
+
+.google i {
+  line-height: 50px;
+  padding: 0 20px;
+  font-size: 30px;
+  color: red;
+}
