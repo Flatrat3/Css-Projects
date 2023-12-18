@@ -1,0 +1,124 @@
+.cards-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.card-section-wrap {
+  flex-wrap: nowrap;
+  margin: 0 2rem;
+}
+
+.cards-section .card {
+  border-radius: 30px;
+  align-items: center;
+  position: relative;
+}
+
+.cards-section .card-1 {
+  margin-right: 2rem;
+  background-color: #fa9db7;
+}
+
+.cards-section .card-2 {
+  background-color: #45b3df;
+  margin-right: 2rem;
+}
+
+.cards-section .card-3 {
+  background: #ffc85b;
+}
+
+.card-img {
+  height: 140px;
+}
+
+.card-img img {
+  margin-top: 1rem;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-body .card-title {
+  color: #fff;
+  line-height: 1;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.display-5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.card-body .mbr-text {
+  color: #fff;
+  padding: 0 2rem;
+  font-family: "Muli", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.card-section-btn a {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Muli", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.card-section-btn i {
+  transition: 0.3s;
+  color: white;
+  font-size: 26px;
+}
+
+.card-section-btn i:hover {
+  transform: rotate(180deg);
+}
+
+.card-section-wrap .svg1 {
+  padding: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  -webkit-animation: dashed_border_running 20s linear infinite both;
+  animation: dashed_border_running 20s linear infinite both;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  stroke-width: 2;
+  stroke-dasharray: 9, 5;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  fill: none;
+  transition: 0.4s;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.card-section-wrap .svg1 rect {
+  position: absolute;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
+
+@keyframes dashed_border-running {
+  100% {
+    stroke-dashoffset: -1000;
+  }
+}
+
+.card:hover .inner-dashed-border {
+  animation-play-state: running;
+  stroke: #ffffff;
+}
