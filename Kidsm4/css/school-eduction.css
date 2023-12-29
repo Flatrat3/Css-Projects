@@ -1,0 +1,65 @@
+
+.school-education{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+.school-education .mbr-section-title {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.line-bg-warning{
+    background-size: 100% 0.521em;
+    display: inline;
+    margin: 0 -12px;
+    padding: 0 12px;
+    background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
+    background-repeat: no-repeat;
+    background-position: 0% 74%;
+}
+
+.display-2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.school-education .mbr-fonts-style{
+    color: #767676;
+    margin-top: 2rem;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0;
+}
+
+.item-image img{
+    width: 80px;
+}
+
+.school-education .card-box .card-title{
+    color: #12265a;
+    transition: 0.5s;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 0.75rem;
+}
+
+.school-education .card-box .card-title:hover{
+    color: #fa9db7;
+}
+
+.school-education .card-box .mbr-text{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0;
+    margin-bottom: 1rem;
+    color: #70747f;
+}
+
