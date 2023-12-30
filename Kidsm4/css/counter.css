@@ -1,0 +1,58 @@
+.counter-section{
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 135px;
+    background-color: #88d4f2;;
+}
+
+.counter-section .svg-2{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.counter-section .svg-2 path{
+    fill: #fff;
+}
+
+.counter-section .svg-1{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.counter-section .svg-1 path{
+    fill: #fff;
+}
+
+.counter-section .container{
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-inline: auto ;
+}
+
+.counter-section .container .card{
+    padding: 1rem;
+}
+
+.counter-section .container .card .card-text{
+    padding: 1rem;
+}
+
+.counter-section .container .count{
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.counter-section .container .count1{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.counter-section .container .count2 {
+    font-size: 1.75rem
+}
