@@ -5,6 +5,7 @@
 @import url(school-eduction.css);
 @import url(counter.css);
 @import url(gallery-section.css);
+@import url(tab-section.css);
 
 * {
   margin: 0;
