@@ -4,6 +4,7 @@
 @import url(cards.css);
 @import url(school-eduction.css);
 @import url(counter.css);
+@import url(gallery-section.css);
 
 * {
   margin: 0;
