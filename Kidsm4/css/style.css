@@ -6,6 +6,7 @@
 @import url(counter.css);
 @import url(gallery-section.css);
 @import url(tab-section.css);
+@import url(features.css);
 
 * {
   margin: 0;
