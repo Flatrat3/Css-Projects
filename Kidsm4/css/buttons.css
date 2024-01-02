@@ -1,0 +1,48 @@
+.buttons{
+    padding-top: 45px;
+    padding-bottom: 75px;
+    background: #ffffff;
+}
+.buttons a{
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.buttons a i{
+    font-size: 1.3rem;
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    transition: .3s;
+    margin-right: 0.5rem;
+    
+}
+
+.buttons a i.fa-x-twitter,
+.buttons a i.fa-behance
+{
+    background: #45b3df;
+    color: #fff;
+    
+}
+
+.buttons a i.fa-facebook,
+.buttons a i.fa-youtube{
+    background-color: #456eda;
+    color: #fff;
+}
+
+.buttons a i.fa-instagram{
+    background-color: #f985a5;
+    color: #fff;
+}
+
+.buttons a:hover {
+    transform: translate(0, -10px);
+}
