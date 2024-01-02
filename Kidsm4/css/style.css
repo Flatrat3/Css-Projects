@@ -7,6 +7,7 @@
 @import url(gallery-section.css);
 @import url(tab-section.css);
 @import url(features.css);
+@import url(form.css);
 
 * {
   margin: 0;

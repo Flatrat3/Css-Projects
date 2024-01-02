@@ -1,0 +1,55 @@
+.form-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+.form-section .container{
+    position: relative;
+    padding: 0 1.8rem;
+}
+
+
+.form-section .map-wrapper .google-map{
+    height: 458px;
+    position: relative;
+}
+
+.form-section .map-wrapper .google-map iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.form-section .mbr-form{
+    padding-left: 2rem;
+}
+
+.align-left{
+    text-align: left;
+}
+.dragArea .title h5{
+    margin-left: 0px;
+    color: #12265a;
+    padding-left: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.form-control {
+    padding: 0.8rem 1.2rem;
+    background-color: #ffffff;
+    border: 1px solid #ebe9e5;
+    color: #70747f;
+    transition: 0.4s;
+    font-size: 0.9rem;
+    box-shadow: none;
+    outline: none;
+    border-radius: 26px;
+}
+
+.form-control .mbr-section-btn{
+    margin-left: 5px;
+}
